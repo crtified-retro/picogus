@@ -13,7 +13,7 @@ ISA sound card emulation on the Raspberry Pi Pico's RP2040 microcontroller. Pico
 * [CMS/Game Blaster](http://nerdlypleasures.blogspot.com/2012/10/all-you-ever-wanted-to-know-about.html)
 * [Game port joystick](https://en.wikipedia.org/wiki/Game_port)
 
-Current status: perpetual beta! See the [main wiki page](https://github.com/polpo/picogus/wiki) for current status and the [compatibility list](https://github.com/polpo/picogus/wiki/Compatibility-list) for support status of various DOS programs and other system compatibility notes. This project has a heavy demoscene focus due to the GUS's history so that's what I've concentrated on, but GUS support in games is very good to excellent.
+Current status: **Perpetual beta!** This is still a work in progress. Due to the specs of the Pico, assumptions made by programs written to use the GUS, the imprecise nature of emulation, and the varying specs of retro DOS PC hardware, some things may never be perfect! See the [main wiki page](https://github.com/polpo/picogus/wiki) for general details about the project's status, and the [compatibility list](https://github.com/polpo/picogus/wiki/Compatibility-list) for user-submitted reports on how well the PicoGUS works with specific hardware and software.
 
 Want to buy a PicoGUS? Fully assembled PicoGUS 2.0 sound cards are available from these sources, all of whom ship worldwide:
 
@@ -21,7 +21,7 @@ Want to buy a PicoGUS? Fully assembled PicoGUS 2.0 sound cards are available fro
 * [Serdashop](https://www.serdashop.com/PicoGUS) - in EU 🇪🇺
 * [Flamelily IT](https://shop.flamelily.co.uk/picogus) - in UK 🇬🇧
 
-Want to make your own PicoGUS? See the [build guide](https://github.com/polpo/picogus/wiki/Building-your-PicoGUS). Note that the more DIY friendly v1.1.1 hardware has some documented issues with reset – a forthcoming v1.2 revision will fix these issues. **Important caveat**: due to the specs of the Pico, assumptions made by programs written to use the GUS, the imprecise nature of emulation, and the varying specs of retro DOS PC hardware, some things will likely never be perfect. **This is still a work in progress.**
+Want to make your own PicoGUS? The easiest version to make at home is the PicoGUS v1.2. The [build guide](https://github.com/polpo/picogus/wiki/Building-your-PicoGUS) walks through the main points of building a v1.2 card. 
 
 Have a PicoGUS and want to use it? See the [configuring and using your PicoGUS guide](https://github.com/polpo/picogus/wiki/Configuring-and-using-your-PicoGUS).
 
